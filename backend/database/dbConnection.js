@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const dbConnection = () => {
   mongoose
-    .connect("mongodb+srv://sonivaibhav378:sonivaibhav378@docplus.laowaxp.mongodb.net/?retryWrites=true", {
+    .connect("mongodb://localhost:27017/doctor-app", {
       dbName: "doctor-app",
     })
     .then(() => {
