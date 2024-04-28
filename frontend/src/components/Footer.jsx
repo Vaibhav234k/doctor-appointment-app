@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
             <div>
               <MdEmail />
-              <span>vaibhavsoni@gmail.com</span>
+              <span>work@docplus.com</span>
             </div>
             <div>
               <FaLocationArrow />
